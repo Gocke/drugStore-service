@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:21111/eureka/
+  instance:
+    appname: drug-web
+
+server:
+  port: 9606
+
+spring:
+  application:
+    name: drug-web
