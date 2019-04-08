@@ -15,6 +15,8 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 public class UASWebApplication {
     public static void main(String[] args) {
+        //Spring Boot
         SpringApplication.run(UASWebApplication.class, args);
+        
     }
 }
